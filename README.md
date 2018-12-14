@@ -1,5 +1,6 @@
 Bare minimum application demonstrating the use of React Redux, almost like a boiler plate. It demonstrates stores, reducers, actions, and constants (good practice examples)
 
+Update: I added Redux Devtools (see store/index.js), you can now use the Chrome extension Redux DevTools to view everything regarding Redux in this application through Chrome.
 
 ## How to Run Everything
 (be sure node is installed)
