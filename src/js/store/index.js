@@ -31,6 +31,9 @@ subscribe - for listening on state changes
 import { createStore } from "redux";
 import rootReducer from "../reducers/index";
 
-const store = createStore(rootReducer);
+const store = createStore(
+  rootReducer,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__() // THIS IS JUST SO YOU CAN USE REDUX CHROME EXTENSION FOR DEV PURPOSES, OTHERWISE JUST HAVE 'rootReducer'
+);
 
 export default store;
